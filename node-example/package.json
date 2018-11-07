@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jonathanmaydm/typescript-brownbag/issues"
   },
-  "homepage": "https://github.com/jonathanmaydm/typescript-brownbag#readme"
+  "homepage": "https://github.com/jonathanmaydm/typescript-brownbag#readme",
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  }
 }
