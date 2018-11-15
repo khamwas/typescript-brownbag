@@ -1,4 +1,14 @@
-export const users = [
+export interface IUser{
+  email: string;
+  first_name: string;
+  id: number;
+  last_name: string;
+  messages?:{
+    unread:string
+  }
+}
+
+export const users:IUser[] = [
   {
     email: "shariot0@sciencedaily.com",
     first_name: "Sukey",
